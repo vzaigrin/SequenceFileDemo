@@ -22,6 +22,7 @@ object ReadDemo {
       Reader.file(inFile),
       Reader.bufferSize(4096)
     )
+
     try {
       while (reader.next(key, value)) println(s"Key $key\tValue $value")
     } catch {
