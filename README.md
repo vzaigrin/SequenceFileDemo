@@ -7,6 +7,6 @@
 
 ## Пример
 ### Запись 
-java java -jar write/target/scala-2.13/write.jar result/output
+java -jar write/target/scala-2.13/write.jar result/output
 ### Чтение
 java -jar read/target/scala-2.13/read.jar result/output
